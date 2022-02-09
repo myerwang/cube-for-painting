@@ -11,13 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  '/precache-manifest.345c50befbc2b0f0b6e9daa8ec372e2c.js',
+  "/precache-manifest.345c50befbc2b0f0b6e9daa8ec372e2c.js"
 );
 
-workbox.core.setCacheNameDetails({ prefix: 'cube-for-painting' });
+workbox.core.setCacheNameDetails({prefix: "cube-for-painting"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
