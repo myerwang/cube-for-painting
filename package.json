@@ -11,6 +11,9 @@
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "three": "^0.137.5",
+    "three-css2drender": "^1.0.0",
+    "three-obj-mtl-loader": "^1.0.3",
+    "three-orbit-controls": "^82.1.0",
     "vue": "^2.6.11",
     "vuex": "^3.4.0",
     "vuex-persistedstate": "^4.1.0"
@@ -42,7 +45,50 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "max-len": [
+        "error",
+        {
+          "code": 900
+        }
+      ],
+      "no-unused-expressions": [
+        "error",
+        {
+          "allowShortCircuit": true,
+          "allowTernary": true
+        }
+      ],
+      "no-shadow": [
+        "error",
+        {
+          "allow": [
+            "state",
+            "canvas"
+          ]
+        }
+      ],
+      "no-underscore-dangle": [
+        "off",
+        "always"
+      ],
+      "no-nested-ternary": [
+        "off"
+      ],
+      "no-restricted-syntax": [
+        "off"
+      ],
+      "no-unused-vars": "off",
+      "no-await-in-loop": "off",
+      "vue/no-unused-vars": "off",
+      "no-unreachable": "off",
+      "no-param-reassign": [
+        2,
+        {
+          "props": false
+        }
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
