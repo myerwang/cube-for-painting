@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.345c50befbc2b0f0b6e9daa8ec372e2c.js"
+  "/precache-manifest.34a2e6f8106c9a3e31a1d1c3c9535695.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "cube-for-painting"});
