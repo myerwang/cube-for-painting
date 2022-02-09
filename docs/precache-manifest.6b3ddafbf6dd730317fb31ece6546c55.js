@@ -4,16 +4,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CNAME"
   },
   {
-    "revision": "79656c853d9cd64cd572",
+    "revision": "5bc31db5078767aa26e6",
     "url": "/css/app.b4c269c2.css"
   },
   {
-    "revision": "7628c64f919b5733215d15fcb6922f0b",
+    "revision": "f836f4e6e9547384877bb024386273af",
     "url": "/index.html"
   },
   {
-    "revision": "79656c853d9cd64cd572",
-    "url": "/js/app.9edb40a8.js"
+    "revision": "5bc31db5078767aa26e6",
+    "url": "/js/app.2c6dd2e3.js"
   },
   {
     "revision": "f559f8470ad9fd6831fc",

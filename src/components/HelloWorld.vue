@@ -28,12 +28,17 @@ export default {
       this.scene = new THREE.Scene();
 
       // 网格模型添加到场景中
-      const geometry = new THREE.BoxGeometry(0.2, 0.2, 0.2);
-      const material = new THREE.MeshNormalMaterial({
-        color: 'white',
-      });
-      this.mesh = new THREE.Mesh(geometry, material);
-      this.scene.add(this.mesh);
+      // const geometry = new THREE.BoxGeometry(0.2, 0.2, 0.2);
+      // const material = new THREE.MeshNormalMaterial({
+      //   color: 0xff0000,
+      //   wireframe: true,
+      // });
+      // this.mesh = new THREE.Mesh(geometry, material);
+      // this.scene.add(this.mesh);
+      const sphere = new THREE.SphereGeometry();
+      const object = new THREE.Mesh(sphere, new THREE.MeshNormalMaterial(0xff0000));
+      const box = new THREE.BoxHelper(object);
+      this.scene.add(box);
 
       /**
        * 相机设置
